@@ -1,13 +1,10 @@
+import React from 'react';
+import RoutesComponent from './components/routes/RoutesComponent';
 
-import { Button } from '@mui/material';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <Button variant='contained'>Hello</Button>
-    </div>
-  );
-}
+const App: React.FC = () => {
+    return (
+            <RoutesComponent />
+    );
+};
 
 export default App;
